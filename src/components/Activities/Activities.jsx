@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Activity from "../Activity/Activity";
 
 const Activities = () => {
   const [activities, setActivities] = useState([])
@@ -9,9 +10,9 @@ const Activities = () => {
     .then(data => setActivities(data))
   }, [])
   return (
-    <div>
+    <div className="grid grid-cols-3 gap-3 mx-12">
       {
-        activities.map(act => <h1>{act.name}</h1>)
+        activities.map(act => <Activity key={act.id} act={act} />)
       }
     </div>
   );
