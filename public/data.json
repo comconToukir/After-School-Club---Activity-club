@@ -1,56 +1,65 @@
 [
   {
     "id": "63348a6b57e8afbd5708b94c",
+    "name": "Photography Club",
     "timeNeeded": 41,
-    "picture": "http://placehold.it/32x32",
-    "name": "Casandra"
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-08T163751.455.png",
+    "description": "A photography afterschool club will give students the opportunity to let their creativity show while also learning some photography techniques."
   },
   {
     "id": "63348a6b9db99413521c3947",
+    "name": "Public Speaking Club",
     "timeNeeded": 35,
-    "picture": "http://placehold.it/32x32",
-    "name": "Katy"
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-08T164119.707.png",
+    "description": "This club will help students learn how to speak in public and convey the message they want to get across. Students will learn confidence."
   },
   {
     "id": "63348a6bad759c151f13bdf7",
+    "name": "Cooking Club",
     "timeNeeded": 34,
-    "picture": "http://placehold.it/32x32",
-    "name": "Boyer"
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-09T101324.768.png",
+    "description": "You can tailor the lessons and recipe skill levels based on the ages of the students in your club.If you have access to an oven, that would be great."
   },
   {
     "id": "63348a6b7338eee83bc9faa0",
+    "name": "STEM Club",
     "timeNeeded": 54,
-    "picture": "http://placehold.it/32x32",
-    "name": "Rojas"
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-09T101929.472.png",
+    "description": "A STEM club is the ideal way to get students interested in science, technology, engineering, and math. You can plan out a variety of different experiments."
   },
   {
     "id": "63348a6bcb5bd27ad79cb4c1",
+    "name": "Singing Club",
     "timeNeeded": 34,
-    "picture": "http://placehold.it/32x32",
-    "name": "Leonard"
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-09T102135.825.png",
+    "description": "Do the students in your club love to sing? If so, a singing club may be a very popular club to run. You could teach more classic songs."
   },
   {
     "id": "63348a6bc5c6970e61c53e32",
+    "name": "Board Games Club",
     "timeNeeded": 20,
-    "picture": "http://placehold.it/32x32",
-    "name": "Tyson"
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-09T102951.665.png",
+    "description": "Board games offer students the chance to have fun, while also learning how to be strategic. So giving them time to play during an afterschool club could be a welcome opportunity."
   },
   {
     "id": "63348a6ba3921089c2ed9d58",
+    "name": "Gardening Club",
     "timeNeeded": 10,
-    "picture": "http://placehold.it/32x32",
-    "name": "Benita"
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-09T104317.331.png",
+    "description": "A gardening club can be a lot of fun for students while also helping them learn important skills. Beyond the obvious skills of how to care for plants and grow their own foods,"
   },
   {
     "id": "63348a6bd831b426d75185b0",
-    "timeNeeded": 16,
-    "picture": "http://placehold.it/32x32",
-    "name": "Goldie"
+    "name": "Sports Club",
+    "timeNeeded": 36,
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-09T104724.372.png",
+    "description": "Choose your favorite sport to play with students to offer students the opportunity to play multiple sports over the course of the club—it's up to you!"
   },
   {
     "id": "63348a6b10a8a32be2750999",
+    "name": "Dance Club",
     "timeNeeded": 5,
-    "picture": "http://placehold.it/32x32",
-    "name": "Bernadette"
+    "picture": "https://scienceandliteracy.org/wp-content/uploads/2022/06/SL-2022-06-09T105752.729.png",
+    "description": "Get students up off their feet and moving with a dance club. There are a lot of options with this type of club:"
   }
 ]
