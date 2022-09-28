@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors: {
         'title-clr': '#22459a',
+        'routine-green': '#cbdfae'
       },
     },
   },

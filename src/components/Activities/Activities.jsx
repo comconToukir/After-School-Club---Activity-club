@@ -10,7 +10,7 @@ const Activities = () => {
     .then(data => setActivities(data))
   }, [])
   return (
-    <div className="grid grid-cols-3 gap-3 mx-12">
+    <div className="w-3/4 mx-auto grid grid-cols-3 gap-3 my-10">
       {
         activities.map(act => <Activity key={act.id} act={act} />)
       }
