@@ -1,0 +1,14 @@
+[
+  {
+    "question": "How React Works",
+    "answer": "React maintains a copy of DOM using virtual DOM in javascript and it uses diff algorithm to detect and apply changes to real DOM through the reconciliation process."
+  },
+  {
+    "question": "Differences between props and state",
+    "answer": "Props are immutable and state is mutable. Props ara used to pass data from parent to child component. State used to contain data that an event may change."
+  },
+  {
+    "question": "Uses of useEffect Hook",
+    "answer": "useEffect hook is usd to perform side effects in react component. useEffect can be used to fetch data from server, validating input field, triggering an action depending on new dependency array value"
+  }
+]

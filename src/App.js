@@ -5,6 +5,7 @@ import RoutineViewer from './components/RoutineViewer/RoutineViewer';
 import { useState } from 'react';
 
 import './App.css';
+import QaContainer from './components/QaContainer/QaContainer';
 
 function App() {
   const [timeList, setTimeList] = useState([])
@@ -18,9 +19,9 @@ function App() {
       (prevTime, currTime) => prevTime + currTime,
       0
     );
-    
+
     setTotalTime(totalActiveTime);
-    localStorage.setItem("exerciseTime", totalActiveTime);
+    localStorage.setItem("activityTime", totalActiveTime);
   }
 
   return (
@@ -31,6 +32,9 @@ function App() {
         <div className='grid grid-cols-1 md:grid-cols-[1fr_350px]'>
           <Activities className="order-2 md:order-1" handleActivity={handleActivity} />
           <RoutineViewer className="order-1 md-order-2" totalTime={totalTime} />
+        </div>
+        <div className="w-5/6 mx-auto my-6 font-noto text-gray-700">
+          <QaContainer />
         </div>
       </main>
     </div>
