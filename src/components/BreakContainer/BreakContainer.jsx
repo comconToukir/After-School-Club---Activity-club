@@ -9,7 +9,7 @@ const BreakContainer = () => {
       .then((data) => setBreaks(data));
   }, []);
   return (
-    <div className="font-semibold mt-6">
+    <div className="font-semibold mt-6 p-2 shadow-sm">
       <h2 className="text-xl mb-2">Add A Breaktime</h2>
       <div className="flex justify-between">
         {breaks.map((br, i) => (

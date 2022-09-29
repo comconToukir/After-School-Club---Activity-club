@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Activity from "../Activity/Activity";
 
-const Activities = () => {
+const Activities = ({ className }) => {
   const [activities, setActivities] = useState([])
 
   useEffect(() => {
@@ -10,7 +10,7 @@ const Activities = () => {
     .then(data => setActivities(data))
   }, [])
   return (
-    <div className="w-3/4 mx-auto grid grid-cols-3 gap-3 my-10">
+    <div className={`${className} w-3/4 mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-3 my-10`}>
       {
         activities.map(act => <Activity key={act.id} act={act} />)
       }
