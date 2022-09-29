@@ -28,7 +28,7 @@ function App() {
     <div>
       <Header />
       <main>
-        <h1 className='w-5/6 mt-8 mx-auto px-2 py-1 text-2xl text-title-clr font-semibold font-noto border-l-4 border-l-routine-green'>Select Your After School Activities</h1>
+        <h1 className='w-5/6 mt-8 mx-auto px-2 py-1 text-2xl text-title-clr font-semibold font-montserrat border-l-4 border-l-routine-green'>Select Your After School Activities</h1>
         <div className='grid grid-cols-1 md:grid-cols-[1fr_350px]'>
           <Activities className="order-2 md:order-1" handleActivity={handleActivity} />
           <RoutineViewer className="order-1 md-order-2" totalTime={totalTime} />

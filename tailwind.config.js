@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     fontFamily: {
       noto: ['Noto Sans', 'sans-serif'],
-      slabo: ['Slabo 27px', 'serif'],
+      montserrat: ['Montserrat', 'sans-serif'],
     },
     extend: {
       colors: {
