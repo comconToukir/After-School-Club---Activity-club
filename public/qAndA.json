@@ -1,14 +1,14 @@
 [
   {
     "question": "How React Works",
-    "answer": "React maintains a copy of DOM using virtual DOM in javascript and it uses diff algorithm to detect and apply changes to real DOM through the reconciliation process."
+    "answer": "React maintains a copy of DOM using virtual DOM in javascript and it uses diff algorithm to detect and apply changes to real DOM through the reconciliation process. ReactJS stores Virtual DOM trees in the memory. By doing so, React can apply updates to specific parts of the data tree, which is faster than re-rendering the entirety of the DOM tree. Whenever there's a change in data, ReactJS will generate a new Virtual DOM tree and compare it with the previous one to find the quickest possible way to implement changes in the real DOM. This process is known as diffing."
   },
   {
     "question": "Differences between props and state",
-    "answer": "Props are immutable and state is mutable. Props ara used to pass data from parent to child component. State used to contain data that an event may change."
+    "answer": "Props are arguments passed into React components. Props are immutable and state is mutable. Props ara used to pass data from parent to child component. State used to contain data that an event may change. A state is a JavaScript object that represents a part of a component. It changes whenever a user interacts with the application, rendering a new UI to reflect the modifications."
   },
   {
     "question": "Uses of useEffect Hook",
-    "answer": "useEffect hook is usd to perform side effects in react component. useEffect can be used to fetch data from server, validating input field, triggering an action depending on new dependency array value"
+    "answer": "useEffect hook is usd to perform side effects in react component. useEffect can be used to fetch data from server, validating input field, triggering an action depending on new dependency array value."
   }
 ]
