@@ -1,7 +1,10 @@
-const Break = ({ break: { time } }) => {
+const Break = ({ break: { time }, handleBreak }) => {
   return (
-    <div className="p-2 hover:bg-slate-100 cursor-pointer">
-      <span>{time}s</span>
+    <div
+      className="p-2 hover:bg-slate-100 cursor-pointer"
+      onClick={() => handleBreak(time)}
+    >
+      <span className="text-gray-500">{time}m</span>
     </div>
   );
 };
